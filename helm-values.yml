@@ -5,4 +5,8 @@ service:
   type: ClusterIP
   targetPort: 8080
 
+parameters:
+  - param.prod.cart.REDIS_HOST
+  - param.prod.cart.CATALOGUE_HOST
+  - param.prod.cart.CATALOGUE_PORT
 
