@@ -10,3 +10,7 @@ parameters:
   - param.prod.cart.CATALOGUE_HOST
   - param.prod.cart.CATALOGUE_PORT
 
+resources:
+  memory: "200Mi"
+  cpu: "200m"
+
